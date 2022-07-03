@@ -153,33 +153,7 @@ namespace Calculator_Complex_
                             values.Push(ApplyOperator(a, b, op));
                     }
                     
-                    ops.Push(ex[i]);
-
-                    //if (i < ex.Length - 3 && ex[i] == 'S' && ex[i] == 'I' && ex[i] == 'N' )
-                    //{
-                    //    i += 3;
-                    //    while (ops.Peek() != '(')
-                    //    {
-                    //        float a = values.Pop();
-                    //        float b = values.Pop();
-                    //        char op = ops.Pop();
-
-                    //        if (op == '/' && a == 0)
-                    //        {
-                    //            Toast.MakeText(this, "Can't divide by zero", ToastLength.Short).Show();
-                    //            return 0;
-                    //        }
-
-                    //        else
-                    //            values.Push(ApplyOperator(a, b, op));
-                    //    }
-
-                    //    ops.Pop();
-
-                    //    values.Push((float)(System.Math.Sin(values.Pop())));
-                    //}
-
-                    
+                    ops.Push(ex[i]);  
                 }
             }
 
